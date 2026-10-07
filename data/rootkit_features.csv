@@ -1,0 +1,13 @@
+latency_ms,cpu_usage,memory_usage,suspicious_port_count,deleted_process_count,failed_login_count,privilege_escalation_count,hidden_module,kernel_hook,lsmod_mismatch,syscall_table_modified,ld_preload_hook,library_injection,suid_binary,setuid_root,cron_persistence,startup_persistence,reverse_shell,bind_shell,unauthorized_listener,backdoor_port,log_tampering,history_cleared,audit_disabled,wtmp_deleted,label
+120,35,48,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,normal
+145,42,53,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,normal
+168,39,51,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,normal
+132,31,44,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,normal
+190,46,57,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,normal
+215,51,60,1,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,normal
+920,86,91,4,2,28,3,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,rootkit
+840,79,88,3,1,21,2,1,1,1,0,1,0,1,1,1,0,1,0,1,1,1,1,0,1,rootkit
+760,81,83,2,1,17,1,1,0,1,0,1,1,0,1,1,1,0,0,1,0,1,0,1,0,rootkit
+690,72,78,2,0,13,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,rootkit
+1010,94,96,5,3,36,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,rootkit
+580,68,74,2,1,14,1,0,1,0,1,0,1,1,0,0,1,0,0,1,0,0,1,0,0,rootkit

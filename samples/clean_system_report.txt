@@ -1,0 +1,7 @@
+System Health Report
+Hostname: lab-machine-01
+Kernel modules checked: approved modules only
+Open ports reviewed: only ssh and http are expected
+Authentication logs checked: no suspicious login activity
+Cron jobs reviewed: no unknown startup task
+Result: System appears healthy

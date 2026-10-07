@@ -1,0 +1,16 @@
+Linux Rootkit Scan Report
+Host: college-lab-server-03
+Date: 2026-10-07
+
+Summary:
+The system shows signs of kernel-level tampering.
+
+Findings:
+- Unknown kernel module observed during memory inspection
+- lsmod mismatch found between /proc/modules and kernel memory
+- hidden module suspected by rkhunter warning
+- Process 2231 is running from a deleted executable
+- audit log disabled for 14 minutes during suspicious activity
+
+Conclusion:
+Rootkit risk detected. Immediate forensic investigation recommended.

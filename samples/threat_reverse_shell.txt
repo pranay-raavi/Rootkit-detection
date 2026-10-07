@@ -1,0 +1,13 @@
+Security Incident Report
+Host: web-prod-01
+Date: 2026-10-07
+
+Network Findings:
+- Unauthorized listener found on port 4444
+- Possible reverse shell connection from unknown IP
+- netcat listener detected using nc -l
+- Shell history cleared after suspicious login
+- auth.log modified after privilege escalation
+
+Conclusion:
+High risk activity detected. This machine may be compromised.

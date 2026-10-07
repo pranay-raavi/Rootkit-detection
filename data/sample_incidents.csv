@@ -1,0 +1,13 @@
+latency_ms,error_rate,cpu_usage,memory_usage,recent_deploy,service,region,hour_of_day,root_cause
+120,0.4,35,42,false,checkout,us-east,10,unknown
+820,2.1,52,46,false,payments,us-east,14,database
+910,3.0,58,49,false,orders,eu-west,15,database
+260,9.8,41,39,true,checkout,us-east,11,deployment
+310,12.4,48,44,true,payments,ap-south,13,deployment
+700,6.8,45,43,false,search,eu-west,22,network
+640,5.9,44,40,false,orders,ap-south,2,network
+540,1.2,91,61,false,checkout,us-east,19,traffic_spike
+610,1.5,94,66,false,search,us-east,20,traffic_spike
+480,2.4,76,94,false,payments,eu-west,9,memory_leak
+520,3.1,81,96,false,orders,ap-south,8,memory_leak
+135,0.3,31,38,false,search,us-east,7,unknown

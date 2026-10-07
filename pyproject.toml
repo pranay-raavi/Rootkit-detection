@@ -1,0 +1,16 @@
+[project]
+name = "rootguard"
+version = "0.1.0"
+description = "AI-based root cause prediction for infrastructure incidents"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas==2.2.3",
+    "numpy==2.1.3",
+    "scikit-learn==1.5.2",
+    "joblib==1.4.2",
+    "streamlit==1.39.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

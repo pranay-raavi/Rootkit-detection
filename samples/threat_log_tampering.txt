@@ -1,0 +1,13 @@
+Audit Review Report
+Host: finance-app-04
+Date: 2026-10-07
+
+Audit Findings:
+- auth.log modified during unusual login period
+- wtmp deleted before system reboot
+- history cleared for root user
+- deleted executable still linked to running process
+- suspicious cron task found under root crontab
+
+Conclusion:
+Suspicious activity found. Manual review required.
